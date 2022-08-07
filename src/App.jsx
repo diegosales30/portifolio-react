@@ -1,9 +1,13 @@
-function App() {
+import Routers from "./routers";
+import { GlobalStyle } from "./styles/global";
+
+const App = () => {
   return (
-    <div>
-      <h1>ola</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <Routers />
+    </>
   );
-}
+};
 
 export default App;

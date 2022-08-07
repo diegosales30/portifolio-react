@@ -8,17 +8,18 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box
   }
   :root{
-    /* --primary: #111111;
-    --secondary: #090832;
-    --tertiary: #111111;
-    --quaternary: #141f27;
-    --quinary: #141f27;
-    --senary: #ffffff; */
+    --primary: #f0faff;
+    --secondary: #F7FDFF;
+    --tertiary: #1f2223;
+    --quaternary: #2C3032;
+    --quinary: #000;
+    --senary: #1f2023;
     
   }
   body{
     font-family: 'Inter', sans-serif;
-    background-color: var(--quaternary);
+    background-color: var(--quinary);
+    
     
     
     
